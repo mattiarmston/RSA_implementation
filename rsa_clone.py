@@ -155,7 +155,8 @@ def output_keys(n, e, d):
         private.write("d = {}\n".format(d))
 
 def new_key():
-    digits = get_num("How many digits long do you want the keys to be?", min=1)
+    print("Please note inputs larger than 3 can cause performance issues")
+    digits = get_num("How many digits long do you want the prime numbers to be?", min=1)
     print("generating keys")
     n, e, d = gen_keys(digits)
     print("writing public key to 'public_key.py'")
