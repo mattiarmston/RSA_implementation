@@ -4,6 +4,27 @@ This is an implementation of the RSA algorithm written in Python. It was created
 as a learning exercise to better understand how the algorithm works. It can
 generate key pairs, encrypt and decrypt messages.
 
+## Installation
+
+1. Ensure [Python](https://www.python.org) is installed
+2. Clone the repository
+```
+git clone https://github.com/mattiarmston/RSA_implementation.git
+```
+3. Navigate to the installation directory
+```
+cd RSA_implementation
+```
+4. Run the program
+```
+python rsa_clone.py
+```
+
+## Design
+
+This program was written mainly as a teaching tool and as such many of the
+algorithms were chosen for their simplicity rather than their performance.
+
 ### Flaws
 
 The program is very inefficient due to the naive methods used for primality
